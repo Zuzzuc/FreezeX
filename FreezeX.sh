@@ -1,4 +1,4 @@
-  #!/bin/bash
+#!/bin/bash
 # License: The MIT License (MIT)
 # Author Zuzzuc https://github.com/Zuzzuc/
 l=0 && I=0 && klc=0 && KM="STOP"
@@ -21,7 +21,7 @@ SFS() {
 		fi
 		il=$((il+1))
 	done
-	echo 0 && return 0
+	echo 1 && return 1
 }
 while : ;do
 	if [ $l -ge $klz ];then
