@@ -1,5 +1,5 @@
 #FreezeX
-A simple script that will freeze all procceses except for itself and the supplied ones. 
+A simple script that will freeze, or unfreeze, all procceses except for itself and the supplied ones. 
 
 ##Usage
 Please note that using {1..someLargeNumber} will slow this script down if the number is large.
