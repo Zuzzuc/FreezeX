@@ -1,14 +1,14 @@
-#FreezeX
+# FreezeX
 A simple script that will freeze, or unfreeze, all procceses except for itself and the supplied ones. 
 
-##Usage
+## Usage
 Please note that using {1..someLargeNumber} will slow this script down if said number is large.
 
 Usage is: "./FreezeX.sh 1 2 3 4", where 1,2,3 and 4 are the supplied PIDs
 
 Set $1 to "-1" to, instead of freezing all but the supplied processes, unfreeze all but the supplied processes.
 
-##Examples
+## Examples
 Freeze all proccesses but the process with PID 45<br>`./FreezeX.sh 45`<br><br>
 
 Freeze all proccesses but the processes with PID 45, 67 and 839<br>`./FreezeX.sh 45 67 839`<br><br>
